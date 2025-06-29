@@ -42,7 +42,7 @@ public class Main {
         int eggsGrams = 70;
 
         double sumResult = 5 * bananasGrams+ 2 * milkGrams + 2 * icecreamGrams + 4 * eggsGrams;
-        System.out.println("Такой спортзавтрак весит: " + sumResult + " грамм");
+        System.out.println("Такой спортзавтрак весит: " + sumResult + " грамм ");
         System.out.println("или");
         System.out.println("Такой спортзавтрак весит: " + sumResult / 1000 + " килограмм");
 
