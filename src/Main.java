@@ -1,6 +1,6 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Homework1 {
+public class Main {
     public static void main(String[] args) {
 
 //        (ДЗ № 1)
@@ -44,7 +44,7 @@ public class Homework1 {
         double sumResult = 5 * bananasGrams+ 2 * milkGrams + 2 * icecreamGrams + 4 * eggsGrams;
         System.out.println("Такой спортзавтрак весит: " + sumResult + " грамм ");
         System.out.println("или");
-        System.out.println("Такой спортзавтрак весит: " + sumResult / 1000 + " килограмм");
+        System.out.println("Такой спортзавтрак весит: " + sumResult / 1000 + " килограмм ");
 
 
 //        (Задание № 3)
