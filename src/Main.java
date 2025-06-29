@@ -61,7 +61,7 @@ public class Main {
         double denisZpMonthAfter = denisZpMonthBefore + denisZpMonthBefore * 0.1;
         double kristinaZpMonthAfter = kristinaZpMonthBefore + kristinaZpMonthBefore * 0.1;
 
-        System.out.println("Маша теперь получает: " + mashaZpMonthAfter + " рублей. Годовой доход вырос на: " + ((mashaZpMonthAfter * 12) - (mashaZpMonthBefore * 12)) + " рублей");
+        System.out.println("Маша теперь получает:  " + mashaZpMonthAfter + " рублей. Годовой доход вырос на: " + ((mashaZpMonthAfter * 12) - (mashaZpMonthBefore * 12)) + " рублей");
         System.out.println("Денис теперь получает: " + denisZpMonthAfter + " рублей. Годовой доход вырос на: " + ((denisZpMonthAfter * 12) - (denisZpMonthBefore * 12)) + " рублей");
         System.out.println("Кристина теперь получает: " + kristinaZpMonthAfter + " рублей. Годовой доход вырос на: " + ((kristinaZpMonthAfter * 12) - kristinaZpMonthBefore * 12) + " рублей");
 
