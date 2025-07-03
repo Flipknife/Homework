@@ -3,6 +3,8 @@
 public class HW2 {
     public static void main(String[] args) {
 
+        System.out.println("");
+
 //        (ДЗ № 1)
         System.out.println("ДЗ № 1");
 
@@ -31,8 +33,6 @@ public class HW2 {
 
 
 //        (Задание № 2)
-
-        System.out.println("");
         System.out.println("Второе задание:");
         System.out.println("");
 
