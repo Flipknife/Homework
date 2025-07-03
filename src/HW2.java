@@ -1,33 +1,29 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class HW2 {
     public static void main(String[] args) {
 
-//        (ДЗ № 1)
-        System.out.println("ДЗ № 1");
+//        (ДЗ № 2)
+        System.out.println("ДЗ № 2");
 
 //        (Задание № 1)
+
         System.out.println("");
         System.out.println("Первое задание:");
         System.out.println("");
 
-        int firstVar = 6;
-        System.out.println("Значение переменной (firstVar) с типом (int) равно: " + firstVar);
 
-        byte secondVar = 37;
-        System.out.println("Значение переменной (secondVar) с типом (byte) равно: " + secondVar);
+        int age = 30;
 
-        short thirdVar = 8555;
-        System.out.println("Значение переменной (thirdVar) с типом (short) равно: " + thirdVar);
-
-        long fourthVar = 1076754456434463289L;
-        System.out.println("Значение переменной (fourthVar) с типом (long) равно: " + fourthVar);
-
-        float fifthVar = 10.58f;
-        System.out.println("Значение переменной (fifthVar) с типом (float) равно: " + fifthVar);
-
-        double sixthVar = 10.777746369;
-        System.out.println("Значение переменной (sixthVar) с типом (double) равно: " + sixthVar);
+        if (age >= 2 && age <=6) {
+            System.out.println("Если возраст человека равен " + age + " лет, то ему нужно ходить в детский сад");
+        } else if (age >= 7 && age <=17) {
+            System.out.println("Если возраст человека равен " + age + " лет, то ему нужно ходить в школу");
+        } else if (age >= 18 && age <=24) {
+            System.out.println("Если возраст человека равен " + age + " лет, то ему нужно ходить в университет");
+        } else if (age > 24) {
+            System.out.println("Если возраст человека равен " + age +  ", то ему пора ходить на работу");
+        } else {
+            System.out.println("Если твой возраст равен " + age +  ", то научись ходить на горшок");
+        }
 
 
 //        (Задание № 2)
@@ -36,15 +32,20 @@ public class HW2 {
         System.out.println("Второе задание:");
         System.out.println("");
 
-        int bananasGrams = 80;
-        int milkGrams = 105;
-        int icecreamGrams = 100;
-        int eggsGrams = 70;
 
-        double sumResult = 5 * bananasGrams+ 2 * milkGrams + 2 * icecreamGrams + 4 * eggsGrams;
-        System.out.println("Такой спортзавтрак весит: " + sumResult + " грамм ");
-        System.out.println("или");
-        System.out.println("Такой спортзавтрак весит: " + sumResult / 1000 + " килограмм ");
+        int vagon = 102;
+        int passengers = 100;
+        int seeds = 60;
+        int stay = vagon - seeds;
+
+        if (passengers < seeds) {
+            System.out.println("В вагоне осталось сидячих мест " + (seeds - passengers) + " и стоячих мест осталось " + stay);
+        } else if (passengers >= seeds && passengers <= vagon) {
+            System.out.println("В вагоне осталось свободных мест " + (vagon - passengers));
+        } else {
+            System.out.println("В вагоне не хватит мест на " + passengers + " человек");
+        }
+
 
 
 //        (Задание № 3)
@@ -53,21 +54,70 @@ public class HW2 {
         System.out.println("Третье задание:");
         System.out.println("");
 
-        double mashaZpMonthBefore = 67760;
-        double denisZpMonthBefore = 83690;
-        double kristinaZpMonthBefore = 76230;
 
-        double mashaZpMonthAfter = mashaZpMonthBefore + mashaZpMonthBefore * 0.1;
-        double denisZpMonthAfter = denisZpMonthBefore + denisZpMonthBefore * 0.1;
-        double kristinaZpMonthAfter = kristinaZpMonthBefore + kristinaZpMonthBefore * 0.1;
+        int year = 2002;
 
-        System.out.println("Маша теперь получает:  " + mashaZpMonthAfter + " рублей. Годовой доход вырос на: " + ((mashaZpMonthAfter * 12) - (mashaZpMonthBefore * 12)) + " рублей");
-        System.out.println("Денис теперь получает: " + denisZpMonthAfter + " рублей. Годовой доход вырос на: " + ((denisZpMonthAfter * 12) - (denisZpMonthBefore * 12)) + " рублей");
-        System.out.println("Кристина теперь получает: " + kristinaZpMonthAfter + " рублей. Годовой доход вырос на: " + ((kristinaZpMonthAfter * 12) - kristinaZpMonthBefore * 12) + " рублей");
-
+        if (year <= 1584) {
+            System.out.println(year + " Этот год меньше 1584 года, значит тогда ещё не было правил високосных годов");
+        }  else if (year % 400 == 0 || (year % 4 == 0 && year % 100 != 0)) {
+            System.out.println(year + " год является високосным");
+        } else {
+            System.out.println(year + " год не является високосным");
+        }
 
 
 
+//        (задание № 4)
+
+        System.out.println("");
+        System.out.println("Четвертое задание:");
+        System.out.println("");
+
+
+        int monthNumber = 14;
+
+        switch (monthNumber) {
+            case 12:
+                System.out.println(monthNumber + " месяц (он же декабрь) принадлежит к сезону зима");
+                break;
+            case 11:
+                System.out.println(monthNumber + " месяц (он же ноябрь) принадлежит к сезону осень");
+                break;
+            case 10:
+                System.out.println(monthNumber + " месяц (он же октябрь) принадлежит к сезону осень");
+                break;
+            case 9:
+                System.out.println(monthNumber + " месяц (он же сентябрь) принадлежит к сезону осень");
+                break;
+            case 8:
+                System.out.println(monthNumber + " месяц (он же август) принадлежит к сезону лето");
+                break;
+            case 7:
+                System.out.println(monthNumber + " месяц (он же июль) принадлежит к сезону лето");
+                break;
+            case 6:
+                System.out.println(monthNumber + " месяц (он же июнь) принадлежит к сезону лето");
+                break;
+            case 5:
+                System.out.println(monthNumber + " месяц (он же май) принадлежит к сезону весна");
+                break;
+            case 4:
+                System.out.println(monthNumber + " месяц (он же апрель) принадлежит к сезону весна");
+                break;
+            case 3:
+                System.out.println(monthNumber + " месяц (он же март) принадлежит к сезону весна");
+                break;
+            case 2:
+                System.out.println(monthNumber + " месяц (он же февраль) принадлежит к сезону зима");
+                break;
+            case 1:
+                System.out.println(monthNumber + " месяц (он же январь) принадлежит к сезону зима");
+                break;
+                default:
+                    System.out.println(monthNumber + " не существует такого номера месяца");
+                    break;
+
+        }
 
         }
     }
