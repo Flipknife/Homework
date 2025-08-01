@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="230bd96d-55b5-4719-bfe1-c703d4500cf2" name="Changes" comment="Homework 4">
-      <change afterPath="$PROJECT_DIR$/src/HW5.java" afterDir="false" />
+    <list default="true" id="230bd96d-55b5-4719-bfe1-c703d4500cf2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/HW6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +32,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Flipknife/Homework.git&quot;,
-    &quot;accountId&quot;: &quot;f3132b62-7cf1-411f-bf51-3be30867a20b&quot;
+    &quot;accountId&quot;: &quot;9309581b-8906-4d6f-846f-97acc3085c17&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -50,20 +46,16 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.HW4.executor": "Run",
-    "Application.HW5.executor": "Run",
+    "Application.HW6.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "onboarding.tips.debug.path": "C:/Users/user/IdeaProjects/Homework/src/Main.java"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\user\IdeaProjects\Homework\.idea" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Application.HW5">
+  <component name="RunManager" selected="Application.HW6">
     <configuration name="HW4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HW4" />
       <module name="Homework" />
@@ -71,8 +63,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HW5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HW5" />
+    <configuration name="HW6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HW6" />
       <module name="Homework" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -80,7 +72,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HW5" />
+        <item itemvalue="Application.HW6" />
         <item itemvalue="Application.HW4" />
       </list>
     </recent_temporary>
@@ -93,19 +85,6 @@
       <option name="presentableId" value="Default" />
       <updated>1752934408998</updated>
     </task>
-    <task id="LOCAL-00001" summary="Homework 4">
-      <option name="closed" value="true" />
-      <created>1752941695341</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1752941695341</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Homework 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework 4" />
   </component>
 </project>
