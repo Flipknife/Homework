@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="230bd96d-55b5-4719-bfe1-c703d4500cf2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/HW6.java" afterDir="false" />
+    <list default="true" id="230bd96d-55b5-4719-bfe1-c703d4500cf2" name="Changes" comment="HW 6">
+      <change afterPath="$PROJECT_DIR$/src/HW7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_8_1_2025_6_19_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_8_1_2025_6_19_PM__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +49,7 @@
   "keyToString": {
     "Application.HW4.executor": "Run",
     "Application.HW6.executor": "Run",
+    "Application.HW7.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -55,7 +58,7 @@
     "onboarding.tips.debug.path": "C:/Users/user/IdeaProjects/Homework/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.HW6">
+  <component name="RunManager" selected="Application.HW7">
     <configuration name="HW4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HW4" />
       <module name="Homework" />
@@ -70,8 +73,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HW7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HW7" />
+      <module name="Homework" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HW7" />
         <item itemvalue="Application.HW6" />
         <item itemvalue="Application.HW4" />
       </list>
@@ -85,6 +96,19 @@
       <option name="presentableId" value="Default" />
       <updated>1752934408998</updated>
     </task>
+    <task id="LOCAL-00001" summary="HW 6">
+      <option name="closed" value="true" />
+      <created>1754065767590</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1754065767590</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="HW 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW 6" />
   </component>
 </project>
