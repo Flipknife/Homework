@@ -38,7 +38,7 @@ public class HW8 {
 
         if (result > 0) {
             System.out.println(result + " это число положительное");
-        } else if (result >= 0 ) {
+        } else if (result == 0 ) {
             System.out.println(result + " это просто ноль");
         } else {
             System.out.println(result1+ " это число атрицательное");
@@ -46,7 +46,7 @@ public class HW8 {
 
         if (result1 > 0) {
             System.out.println(result1 + " это число положительное");
-        } else if (result1 >= 0 ) {
+        } else if (result1 == 0 ) {
             System.out.println(result1 + " это просто ноль");
         } else {
             System.out.println(result1+ " это число атрицательное");
@@ -54,7 +54,7 @@ public class HW8 {
 
         if (result2 > 0) {
             System.out.println(result2 + " это число положительное");
-        } else if (result2 >= 0 ) {
+        } else if (result2 == 0 ) {
             System.out.println(result2 + " это просто ноль");
         } else {
             System.out.println(result2 + " это число атрицательное");
@@ -62,7 +62,7 @@ public class HW8 {
 
         if (result3 > 0) {
             System.out.println(result3 + " это число положительное");
-        } else if (result3 >= 0 ) {
+        } else if (result3 == 0 ) {
             System.out.println(result3 + " это просто ноль");
         } else {
             System.out.println(result3 + " это число атрицательное");
