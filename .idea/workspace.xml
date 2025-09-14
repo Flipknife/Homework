@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="230bd96d-55b5-4719-bfe1-c703d4500cf2" name="Changes" comment="HW 8">
-      <change afterPath="$PROJECT_DIR$/src/HW9.java" afterDir="false" />
+    <list default="true" id="230bd96d-55b5-4719-bfe1-c703d4500cf2" name="Changes" comment="HW 9">
+      <change afterPath="$PROJECT_DIR$/src/HW10.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW8.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +45,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.HW10.executor": "Run",
     "Application.HW4.executor": "Run",
     "Application.HW6.executor": "Run",
     "Application.HW7.executor": "Run",
@@ -59,9 +59,9 @@
     "onboarding.tips.debug.path": "C:/Users/user/IdeaProjects/Homework/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.HW9">
-    <configuration name="HW4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HW4" />
+  <component name="RunManager" selected="Application.HW10">
+    <configuration name="HW10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HW10" />
       <module name="Homework" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -97,11 +97,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HW10" />
         <item itemvalue="Application.HW9" />
         <item itemvalue="Application.HW8" />
         <item itemvalue="Application.HW7" />
         <item itemvalue="Application.HW6" />
-        <item itemvalue="Application.HW4" />
       </list>
     </recent_temporary>
   </component>
@@ -137,13 +137,22 @@
       <option name="project" value="LOCAL" />
       <updated>1755441268523</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="HW 9">
+      <option name="closed" value="true" />
+      <created>1756564232464</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1756564232464</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="HW 6" />
     <MESSAGE value="HW 7" />
     <MESSAGE value="HW 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW 8" />
+    <MESSAGE value="HW 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW 9" />
   </component>
 </project>
